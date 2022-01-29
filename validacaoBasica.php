@@ -11,7 +11,7 @@ echo "<br>";
 /*
 validacao basica se ela existe? -passo2 (isset)
 se a variavel tiver sido declarada ela sera apresentada - 
-- anula o unset caso seja colocada como comentario
+- para anular o unset - coloque o unset como comentario
 */
 
 	if(isset($nome1)){
