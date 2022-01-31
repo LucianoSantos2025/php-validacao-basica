@@ -1,7 +1,8 @@
 <?php
 
-$nome1 = "Pedro"."<br>";
+$nome1 = "Pedro";
 echo $nome1;
+echo "<br>";
 
 /* passo1 - comando unset - destroi/anula a variavel.
  - Para anular o unset - a linha de codigo abaixo 
@@ -16,9 +17,9 @@ unset($nome1);
 echo "<h3> Validação Básica: </h3>";
 
 if(isset($nome1)){
-	echo $nome1; }
+	echo "Resultado: ".$nome1; }
 else {
-	echo "variável não existe mais!";
+	echo "Resultado: "."variável não existe mais!";
 	}
 
 ?>
